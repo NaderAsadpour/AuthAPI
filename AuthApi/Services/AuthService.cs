@@ -15,6 +15,7 @@ public class AuthService(AppDbContext _context, IConfiguration _configuration) :
     // ── Register ──
     public async Task<TokenResponseDto?> RegisterAsync(RegisterDto request)
     {
+        var now = DateTime.UtcNow;
         if (await _context.Users.AnyAsync(u => u.Email == request.Email))
             return null;
 
@@ -22,7 +23,8 @@ public class AuthService(AppDbContext _context, IConfiguration _configuration) :
         {
             Username = request.Username,
             Email = request.Email,
-            PasswordHash = BCrypt.Net.BCrypt.HashPassword(request.Password)
+            PasswordHash = BCrypt.Net.BCrypt.HashPassword(request.Password),
+            CreatedAt = now,
         };
 
         _context.Users.Add(user);
