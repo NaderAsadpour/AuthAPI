@@ -364,6 +364,7 @@ FodyWeavers.xsd
 
 # Sensitive config files
 appsettings.json
+appsettings.Development.json
 !appsettings.example.json
 
 # Docker override files
