@@ -1,9 +1,9 @@
-﻿using AuthApi.DTOs;
-using AuthApi.Services;
+﻿using AuthAPI.DTOs;
+using AuthAPI.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AuthApi.Controllers;
+namespace AuthAPI.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

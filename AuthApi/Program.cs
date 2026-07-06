@@ -1,5 +1,5 @@
-using AuthApi.Data;
-using AuthApi.Services;
+using AuthAPI.Data;
+using AuthAPI.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;

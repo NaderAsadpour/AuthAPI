@@ -2,6 +2,6 @@
   <Folder Name="/Solution Items/">
     <File Path="docker-compose.yml" />
   </Folder>
-  <Project Path="AuthApi.Tests/AuthApi.Tests.csproj" />
-  <Project Path="AuthApi/AuthApi.csproj" />
+  <Project Path="AuthApi.Tests/AuthApi.Tests.csproj" DisplayName="AuthAPI.Tests" />
+  <Project Path="AuthApi/AuthApi.csproj" DisplayName="AuthAPI" />
 </Solution>

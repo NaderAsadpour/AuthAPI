@@ -1,4 +1,4 @@
-﻿namespace AuthApi.Models;
+﻿namespace AuthAPI.Models;
 
 public class RefreshToken
 {

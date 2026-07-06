@@ -1,6 +1,6 @@
-﻿using AuthApi.Data;
-using AuthApi.DTOs;
-using AuthApi.Services;
+﻿using AuthAPI.Data;
+using AuthAPI.DTOs;
+using AuthAPI.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 

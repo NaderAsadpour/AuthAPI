@@ -1,6 +1,6 @@
-﻿using AuthApi.Controllers;
-using AuthApi.DTOs;
-using AuthApi.Services;
+﻿using AuthAPI.Controllers;
+using AuthAPI.DTOs;
+using AuthAPI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 

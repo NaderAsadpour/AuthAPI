@@ -1,6 +1,6 @@
-﻿using AuthApi.Data;
-using AuthApi.DTOs;
-using AuthApi.Models;
+﻿using AuthAPI.Data;
+using AuthAPI.DTOs;
+using AuthAPI.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
@@ -8,7 +8,7 @@ using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace AuthApi.Services;
+namespace AuthAPI.Services;
 
 public class AuthService(AppDbContext _context, IConfiguration _configuration) : IAuthService
 {

@@ -1,4 +1,4 @@
-﻿namespace AuthApi.DTOs;
+﻿namespace AuthAPI.DTOs;
 
 public class RegisterDto
 {

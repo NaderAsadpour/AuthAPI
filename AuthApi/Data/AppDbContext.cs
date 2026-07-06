@@ -1,7 +1,7 @@
-﻿using AuthApi.Models;
+﻿using AuthAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace AuthApi.Data;
+namespace AuthAPI.Data;
 
 public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
 {
